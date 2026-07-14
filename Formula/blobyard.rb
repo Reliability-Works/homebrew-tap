@@ -5,27 +5,27 @@
 class Blobyard < Formula
   desc "Secure artifact storage for developers"
   homepage "https://blobyard.com"
-  version "0.1.8"
+  version "0.1.9"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://releases.blobyard.com/v0.1.8/blobyard-0.1.8-aarch64-apple-darwin.tar.gz"
-      sha256 "acda178e2b01673e27ea493c98652e292454685facb0df7a09a283de322d334e"
+      url "https://releases.blobyard.com/v0.1.9/blobyard-0.1.9-aarch64-apple-darwin.tar.gz"
+      sha256 "1b3ef32a7bfa2754a770942541aa53cb7b14331238bdcfe777f3ab72d8e31702"
     end
     on_intel do
-      url "https://releases.blobyard.com/v0.1.8/blobyard-0.1.8-x86_64-apple-darwin.tar.gz"
-      sha256 "58fc23cdfbc1c2c3e1d26cfc1a66102d8ec657769feae5fa03b2020b32d7f886"
+      url "https://releases.blobyard.com/v0.1.9/blobyard-0.1.9-x86_64-apple-darwin.tar.gz"
+      sha256 "1f624c40349abf0cbfa96d7c7ba0cff2c61d7253f12f45d3ccc121707b129491"
     end
   end
   on_linux do
     on_arm do
-      url "https://releases.blobyard.com/v0.1.8/blobyard-0.1.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "394dd875199a7bd99c0b53a0f64507f828011c0d36ff7b0d51c464cbd7d16d33"
+      url "https://releases.blobyard.com/v0.1.9/blobyard-0.1.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9896e15cb7c048b09f8848df435c2d9761d7e691308961be18a1214ff0b2e4e6"
     end
     on_intel do
-      url "https://releases.blobyard.com/v0.1.8/blobyard-0.1.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fec68c95f091d60737d92e27390ca9a2682f30effae01633a7f579f2aee422ae"
+      url "https://releases.blobyard.com/v0.1.9/blobyard-0.1.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f8668617cbe21856218c5c37aa01d4b8e0578cb4857565df3ec95c0c6bf125ec"
     end
   end
 
